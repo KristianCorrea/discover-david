@@ -1,0 +1,2 @@
+var titles = ["Lure Lord", "Davidtherock101", "Pookster", "Pro Bro", "The Peoples Pleaser", "David Colina Dave", "Reckless Rock", "Pencil Pusher", "Hovey Benjamin", "Homewark-aholic", "Dell Enthusiast", "Daddy", "Zombie Killah", "Sexy Geico Caveman", "The Mediator", "Bear", "David David David", "A Good Semaratin", "U can't get enough of this guy.", "CookServeDelicious Master Chef", "Hawaiian Dad", "A True Homie", "Pro iFunnier"]
+export var Titles = titles;

@@ -1,0 +1,27 @@
+.createLegacy{
+    background-color: rgb(255, 255, 255);
+    background-image: url("george.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 72px;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    h1{
+        background-color: yellow;
+        font-size: 10vh;
+        width: 70%;
+        @media (max-width: 750px){
+            font-size: 13vw;
+        }
+    }
+    .upload{
+        margin-bottom: 20%;
+    }
+}
