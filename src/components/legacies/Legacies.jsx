@@ -1,6 +1,6 @@
 import "./legacies.scss"
-// import { Link } from 'react-router-dom'
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
+// import { Link } from 'react-scroll'
 import CreateLegacy from "../createlegacy/CreateLegacy"
 
 export default function Legacies({reference, clickExplore, clickCreate}) {
@@ -19,7 +19,7 @@ export default function Legacies({reference, clickExplore, clickCreate}) {
           </div>
           
           <div className="createHistory">
-            <Link to="TEST" smooth={true} style={{ textDecoration: 'none'}}>
+            <Link to="/create" style={{ textDecoration: 'none'}}>
             <h3 className="heading">Create History</h3>
             <div className="create"></div>
             <h3 className="createCaption">Create new Legacies</h3>
